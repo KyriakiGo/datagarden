@@ -3,7 +3,7 @@ body {
     overflow: hidden;
 }
 
-/* .arjs-loader {
+.arjs-loader {
     position: absolute;
     height: 20%;
     width: 50%;
@@ -21,4 +21,4 @@ body {
     font-size: 1.25em;
     color: white;
     z-index: 5;
-} */
+}
