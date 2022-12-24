@@ -11,10 +11,7 @@
     <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script>
 
 
-<!-- pseudocode
-recoqnize marke
-make object appear
-make opbject dissapear -->
+
 
     <!-- <script src="./aframe-ar-nft.js"></script> -->
     <script src='./javascript.js'></script>
@@ -69,7 +66,7 @@ make opbject dissapear -->
         gltf-model="#text-model"
         model-opacity="0.0"
 
-        position="0 0 -100"
+        position="0 0 -90"
         rotation="0 0 0"
 
         animation__fadeIn="property: model-opacity; to: 1.0; dur:1000; loop: 1; startEvents: fade-in"
@@ -79,7 +76,7 @@ make opbject dissapear -->
         visible="true">
         </a-entity>
 
-        <a-entity camera look-controls orbit-controls="target: 0 1.6 -100; minDistance: 0.5; maxDistance: 180; initialPosition: 0 5 15"></a-entity>
+        <a-entity camera orbit-controls="target: 0 1.6 -100; minDistance: 0.5; maxDistance: 180; initialPosition: 0 5 15"></a-entity>
         <!-- <a-entity id="rig"
 
         movement-controls
